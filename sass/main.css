@@ -1,1 +1,9 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.logo {
+  background-color: pink;
+}
+
+.nav {
+  font-family: "Lato", sans-serif;
+  background-color: blueviolet;
+}/*# sourceMappingURL=main.css.map */

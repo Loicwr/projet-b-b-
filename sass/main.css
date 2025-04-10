@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 .logo {
-  background-color: pink;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin: 2em;
 }
 
 .nav {
   font-family: "Montserrat", sans-serif;
   list-style: none;
   display: flex;
+  justify-content: center;
+  gap: 4em;
 }/*# sourceMappingURL=main.css.map */

@@ -9,7 +9,7 @@
 
 .nav {
   font-family: "Montserrat", sans-serif;
-  list-style: none;
+  list-style-type: none;
   display: flex;
   justify-content: center;
   gap: 4em;

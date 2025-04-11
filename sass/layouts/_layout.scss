@@ -4,20 +4,15 @@ html body{
     height: 100%;
 }
 
-
-
-section{
-    background-color: #e7e7DE;
-    border-radius: 20px;
-    width: 100%;;
-}
-
 .grid-accueil {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     gap: 15px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #e7e7DE;
+    border-radius: 20px;
+    width: 100%;;
 }
 
 
@@ -39,4 +34,15 @@ section{
 
 .grid-accueil figure:hover img {
     transform: scale(1.05);
+}
+
+.presentation{
+    
+
+
+    h2, h3{
+        font-family: $font-family-lato-bold;
+        font-weight: 700;
+    }
+
 }

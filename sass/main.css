@@ -1,8 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.logo {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+footer {
+  background-color: #E7E7BE;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+}
+
+.reseaux ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  text-decoration: none;
+}
+.reseaux ul a {
+  text-decoration: none;
+  color: inherit;
+}
+.reseaux ul a img {
+  width: 50px;
+  height: 50px;
+}
+
+div p {
+  text-align: center;
+  border-radius: 20px;
+}
+
 html body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 section {
@@ -37,41 +73,6 @@ section {
 
 .grid-accueil figure:hover img {
   transform: scale(1.05);
-}
-
-.logo {
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  margin: 2em;
-}
-
-footer {
-  background-color: #E7E7BE;
-  font-family: "Montserrat", sans-serif;
-  border-radius: 20px;
-}
-
-.reseaux ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-  text-decoration: none;
-}
-.reseaux ul a {
-  text-decoration: none;
-  color: inherit;
-}
-.reseaux ul a img {
-  width: 50px;
-  height: 50px;
-}
-
-div p {
-  text-align: center;
-  border-radius: 20px;
 }
 
 .nav ul {

@@ -1,16 +1,22 @@
+footer{
+    background-color: #E7E7BE;
+    font-family:$font-family-montserrat;;
+    border-radius: 20px;
+}
+
+
+
 .reseaux ul{
-    font-family:$font-family-montserrat;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    gap: 4em;
+    align-items: center;
+    gap: 1em;
     text-decoration: none;
-    background-color: #E7E7BE;
 
         a {
         text-decoration: none;
-        color: inherit;
+        color: inherit;;
         }
 
         a img{
@@ -21,5 +27,5 @@
 
 div p{
     text-align: center;
-    background-color: #DADBD0;
+    border-radius: 20px;
 }

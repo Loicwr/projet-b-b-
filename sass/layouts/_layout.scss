@@ -11,7 +11,6 @@ html body{
     margin: 0 auto;
     padding: 20px;
     background-color: #e7e7DE;
-    border-radius: 20px;
     width: 100%;;
 }
 
@@ -36,35 +35,50 @@ html body{
     transform: scale(1.05);
 }
 
-.presentation{
-        font-family: $font-family-lato;
-        font-weight: 700;
+.presentation {
+    display: flex;
+    justify-content: center
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    article {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0;
-        padding-left: 3em;
-        text-align: center;
-            .monprofil img{
-                max-width: auto;
-                height: auto;
-                width: 100%;
-                display: block;
-                padding-right: 5em;
-            }
+        justify-content: flex-end;
+        text-align: left;
+        max-width: 600px;
+        flex: 1;
+        margin-right: 20px;
     }
 
-    .commentaires{
-        font-family: $font-family-montserrat;
+    .monprofil {
+        flex: 0 0 auto;
         display: flex;
-        
-        .commentaire{
-            text-align: center;
-            justify-content: space-around;
-            border: 2px solid #e7e7DE;
-            border-radius: 20px;
-            padding: 20px;
-            margin: 10px;
-            box-shadow: 20px;
-        }
+        justify-content: flex-end;
+        align-items: center;
+        max-width: 40%;
     }
+
+    .monprofil img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+}
+
+
+.commentaires{
+    font-family: $font-family-montserrat;
+    display: flex;
+    
+    .commentaire{
+        text-align: center;
+        justify-content: space-around;
+        border: 2px solid #e7e7DE;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 20px;
+        }
+}

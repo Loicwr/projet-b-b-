@@ -49,7 +49,6 @@ html body {
   margin: 0 auto;
   padding: 20px;
   background-color: #e7e7DE;
-  border-radius: 20px;
   width: 100%;
 }
 
@@ -74,21 +73,30 @@ html body {
 }
 
 .presentation {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 0;
-  padding-left: 3em;
-  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.presentation article {
+  text-align: left;
+  max-width: 600px;
+  flex: 1;
+  margin-right: 20px;
+}
+.presentation .monprofil {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 40%;
 }
 .presentation .monprofil img {
-  max-width: auto;
+  max-width: 100%;
   height: auto;
-  width: 100%;
-  display: block;
-  padding-right: 5em;
+  border-radius: 20px;
 }
 
 .commentaires {

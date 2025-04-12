@@ -37,15 +37,13 @@ html body{
 
 .presentation {
     display: flex;
-    justify-content: center
+    justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
 
     article {
-        display: flex;
-        justify-content: flex-end;
         text-align: left;
         max-width: 600px;
         flex: 1;

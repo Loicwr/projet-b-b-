@@ -53,3 +53,18 @@ html body{
                 padding-right: 5em;
             }
     }
+
+    .commentaires{
+        font-family: $font-family-montserrat;
+        display: flex;
+        
+        .commentaire{
+            text-align: center;
+            justify-content: space-around;
+            border: 2px solid #e7e7DE;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 20px;
+        }
+    }

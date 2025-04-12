@@ -37,12 +37,18 @@ html body{
 }
 
 .presentation{
-    
-
-
-    h2, h3{
         font-family: $font-family-lato;
         font-weight: 700;
-        }
-
-}
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+        padding-left: 5em;
+            .monprofil img{
+                max-width: auto;
+                height: auto;
+                width: 100%;
+                display: block;
+                padding-right: 5em;
+            }
+    }

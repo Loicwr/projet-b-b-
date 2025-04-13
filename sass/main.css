@@ -54,6 +54,78 @@ html body {
   color: inherit;
 }
 
+.grid-accueil {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e7e7DE;
+  width: 100%;
+}
+
+.grid-accueil figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+.grid-accueil img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grid-accueil figure:hover img {
+  transform: scale(1.05);
+}
+
+.presentation {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.presentation article {
+  text-align: left;
+  max-width: 600px;
+  flex: 1;
+  margin-right: 20px;
+}
+.presentation .monprofil {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 40%;
+}
+.presentation .monprofil img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.commentaires {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+}
+.commentaires .commentaire {
+  text-align: center;
+  justify-content: space-around;
+  border: 2px solid #e7e7DE;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 20px;
+}
+
 .studio {
   font-family: "Lato", sans-serif;
   display: grid;
@@ -139,76 +211,4 @@ img {
   display: block;
   border-radius: 20px;
   margin: 20px;
-}
-
-.grid-accueil {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #e7e7DE;
-  width: 100%;
-}
-
-.grid-accueil figure {
-  margin: 0;
-  overflow: hidden;
-  border-radius: 8px;
-  position: relative;
-}
-
-.grid-accueil img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: block;
-  transition: transform 0.3s ease-in-out;
-}
-
-.grid-accueil figure:hover img {
-  transform: scale(1.05);
-}
-
-.presentation {
-  font-family: "Lato", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-.presentation article {
-  text-align: left;
-  max-width: 600px;
-  flex: 1;
-  margin-right: 20px;
-}
-.presentation .monprofil {
-  flex: 0 0 auto;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  max-width: 40%;
-}
-.presentation .monprofil img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 20px;
-}
-
-.commentaires {
-  font-family: "Montserrat", sans-serif;
-  display: flex;
-}
-.commentaires .commentaire {
-  text-align: center;
-  justify-content: space-around;
-  border: 2px solid #e7e7DE;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 20px;
 }/*# sourceMappingURL=main.css.map */

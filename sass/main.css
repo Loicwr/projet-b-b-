@@ -54,10 +54,19 @@ html body {
   color: inherit;
 }
 
+html, body {
+  max-width: 100%;
+  height: auto;
+}
+
+*, *::before, ::after {
+  box-sizing: border-box;
+}
+
 .grid-accueil {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
+  grid-template-rows: 0, 5fr 1.5fr;
   margin: 0 auto;
   padding: 20px;
   background-color: #e7e7DE;
@@ -69,10 +78,11 @@ html body {
   overflow: hidden;
   border-radius: 8px;
   position: relative;
+  padding-bottom: 40px;
 }
 
 .grid-accueil img {
-  width: 100%;
+  width: 90%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -141,7 +151,8 @@ html body {
 }
 .studio .titre {
   display: flex;
-  justify-content: center;
+  justify-self: center;
+  margin-top: 300px;
 }
 .studio .paragraphe {
   display: flex;

@@ -1,7 +1,14 @@
+html,body{
+    max-width: 100%;
+    height: auto;
+}
+*, *::before, ::after{
+    box-sizing: border-box;
+} 
 .grid-accueil {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
-    gap: 15px;
+    grid-template-rows: 0,5fr 1.5fr;
     margin: 0 auto;
     padding: 20px;
     background-color: #e7e7DE;
@@ -14,11 +21,12 @@
     overflow: hidden;
     border-radius: 8px;
     position: relative;
+    padding-bottom: 40px;
 }
 
 
 .grid-accueil img {
-    width: 100%;
+    width: 90%;
     height: 100%; 
     object-fit: cover;
     display: block;

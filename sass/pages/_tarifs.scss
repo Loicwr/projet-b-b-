@@ -1,23 +1,34 @@
 
+html body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
 .page-tarifs{
     display: grid;
     grid-template-columns:repeat(3, 5% 1fr)5%;
     grid-template-rows: 0.5fr 1fr 1fr;
     gap: 2em;
+    font-family: $font-family-lato;
+    text-align: center;
 
 }
 .intro-tarifs{
     grid-column: 3 / 6;
-    font-family: $font-family-lato;
-    text-align: center;
     margin: 2em;
 }
 
 .studiomini-tarifs{
     grid-column: 2 / 3;
     grid-row: 2 / 5;
-    border: 1em solid $secondary-color;
+    border: 0.5em solid $secondary-color;
+    background-color: $primary-color;
     margin: 2em;
+    padding: 3em;
+    text-align: center;
+    border-radius: $border-radius;
 }
 
 .studio-tarifs{

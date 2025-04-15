@@ -13,6 +13,9 @@ html body{
     gap: 1em;
     font-family: $font-family-lato;
     text-align: center;
+        ul{
+            list-style-type: none;
+        }
 
 }
 .intro-tarifs{

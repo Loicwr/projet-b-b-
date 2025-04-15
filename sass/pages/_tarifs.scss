@@ -17,6 +17,10 @@ html body{
             list-style-type: none;
         }
 
+        h1,h2{
+            text-decoration-line: underline;
+        }
+
 }
 .intro-tarifs{
     grid-column: 3 / 6;

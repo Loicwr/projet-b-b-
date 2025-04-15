@@ -224,7 +224,7 @@ img {
   margin: 20px;
 }
 
-main h1 {
+.page-galerie, h1 {
   text-align: center;
   font-family: "Lato", sans-serif;
 }
@@ -272,6 +272,33 @@ main h1 {
   transform: scale(1.05);
 }
 
+.page-tarifs {
+  display: grid;
+  grid-template-columns: repeat(3, 5% 1fr) 5%;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  gap: 2em;
+}
+
 .intro-tarifs {
+  grid-column: 3/6;
+  font-family: "Lato", sans-serif;
   text-align: center;
+  margin: 2em;
+}
+
+.studiomini-tarifs {
+  grid-column: 2/3;
+  grid-row: 2/5;
+  border: 1em solid #E7E7BE;
+  margin: 2em;
+}
+
+.studio-tarifs {
+  grid-column: 4/5;
+  grid-row: 2/5;
+}
+
+.exterieur-tarifs {
+  grid-column: 6/7;
+  grid-row: 2/5;
 }/*# sourceMappingURL=main.css.map */

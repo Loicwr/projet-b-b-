@@ -48,6 +48,7 @@ html body {
   justify-content: center;
   gap: 4em;
   text-decoration: none;
+  margin: 2em;
 }
 .nav ul a {
   text-decoration: none;
@@ -72,6 +73,9 @@ html body {
 html, body {
   max-width: 100%;
   height: auto;
+}
+html h1, html h2, body h1, body h2 {
+  text-decoration-line: underline;
 }
 
 *, *::before, ::after {
@@ -303,9 +307,6 @@ html body {
 }
 .page-tarifs ul {
   list-style-type: none;
-}
-.page-tarifs h1, .page-tarifs h2 {
-  text-decoration-line: underline;
 }
 
 .intro-tarifs {

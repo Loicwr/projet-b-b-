@@ -10,7 +10,7 @@ html body{
     display: grid;
     grid-template-columns:repeat(3, 5% 1fr)5%;
     grid-template-rows: 0.5fr 1fr 1fr;
-    gap: 2em;
+    gap: 1em;
     font-family: $font-family-lato;
     text-align: center;
 
@@ -25,18 +25,27 @@ html body{
     grid-row: 2 / 5;
     border: 0.5em solid $secondary-color;
     background-color: $primary-color;
-    margin: 2em;
+    margin: 1em;
     padding: 3em;
-    text-align: center;
     border-radius: $border-radius;
 }
 
 .studio-tarifs{
     grid-column: 4 / 5;
     grid-row: 2 / 5;
+    border: 0.5em solid $secondary-color;
+    background-color: $primary-color;
+    margin: 1em;
+    padding: 3em;
+    border-radius: $border-radius;
 }
 
 .exterieur-tarifs{
     grid-column: 6 / 7;
     grid-row: 2 / 5;
+    border: 0.5em solid $secondary-color;
+    background-color: $primary-color;
+    margin: 1em;
+    padding: 3em;
+    border-radius: $border-radius;
 }

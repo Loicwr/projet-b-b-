@@ -270,4 +270,8 @@ main h1 {
 
 .grid-mosaic figure:hover img {
   transform: scale(1.05);
+}
+
+.intro-tarifs {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

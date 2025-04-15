@@ -66,6 +66,7 @@ html body {
 }
 .btn-reserver:hover, .btn-reserver:focus {
   background-color: #E7E7BE;
+  transform: scale(1.2);
 }
 
 html, body {
@@ -339,5 +340,17 @@ html body {
   background-color: #ebebeb;
   margin: 1em;
   padding: 3em;
+  border-radius: 20px;
+}
+
+.tarifs-localisation {
+  grid-column: 2/7;
+  grid-row: 6;
+  text-align: center;
+}
+.tarifs-localisation iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
   border-radius: 20px;
 }/*# sourceMappingURL=main.css.map */

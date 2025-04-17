@@ -357,9 +357,54 @@ html body {
 }
 
 .blog {
-  display: grid;
-  grid-template-columns: 5% 1fr 1fr 5%;
-  grid-template-rows: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+.blog article {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+.blog article figure {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.blog article figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog article figure figcaption {
+  display: none;
+}
+.blog article .text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog article .text-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.blog article .text-content p {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
 }
 
 .grid-contact {

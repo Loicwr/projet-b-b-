@@ -362,6 +362,7 @@ html body {
   gap: 2rem;
   padding: 2rem;
   background-color: #ebebeb;
+  font-family: "Lato", sans-serif;
 }
 .blog article {
   display: flex;

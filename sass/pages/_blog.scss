@@ -32,6 +32,26 @@
                 height: 100%;
                 object-fit: cover;
             }
+
+            figcaption {
+              display: none; // Caché car pas visible sur ton screen
+            }
+    }
+    .text-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
     
-
-
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+            }
+    
+            p {
+                margin-bottom: 0.75rem;
+                line-height: 1.5;
+            }
+        }
+    }
+}

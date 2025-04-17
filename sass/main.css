@@ -361,13 +361,13 @@ html body {
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  background-color: #f0f0f0;
+  background-color: #ebebeb;
 }
 .blog article {
   display: flex;
   align-items: flex-start;
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solix #E7E7BE;
   padding: 1.5rem;
   gap: 1.5rem;
 }
@@ -376,7 +376,7 @@ html body {
   width: 200px;
   height: 200px;
   margin: 0;
-  background-color: #e0e0e0;
+  background-color: #ebebeb;
   display: flex;
   align-items: center;
   justify-content: center;

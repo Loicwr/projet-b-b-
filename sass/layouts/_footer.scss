@@ -1,0 +1,31 @@
+footer{
+    background-color: #E7E7BE;
+    font-family:$font-family-montserrat;;
+    padding: 1rem;
+}
+
+
+
+.reseaux ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-decoration: none;
+
+        a {
+        text-decoration: none;
+        color: inherit;;
+        }
+
+        a img{
+            width: 50px;
+            height: 50px;
+        }
+}
+
+div p{
+    text-align: center;
+    border-radius: 20px;
+}

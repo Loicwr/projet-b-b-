@@ -1,0 +1,53 @@
+
+.page-galerie, h1{
+    text-align: center;
+    font-family: $font-family-lato;
+}
+
+.grid-mosaic{
+    background-color: $primary-color;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 300px;
+    padding-bottom: 20px;
+        
+        &-item{
+            overflow: hidden;
+            border-radius: $border-radius;
+            position: relative;
+        }
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.3s ease-in-out;
+            }
+
+
+            .mosaic-item:nth-child(1),
+            .mosaic-item:nth-child(3),
+            .mosaic-item:nth-child(10),
+            .mosaic-item:nth-child(14),
+            .mosaic-item:nth-child(15){
+                grid-column: span 2;
+                grid-row: span 2;
+            }
+
+            .mosaic-item:nth-child(6),
+            .mosaic-item:nth-child(5),
+            .mosaic-item:nth-child(11){
+                grid-row: span 2;
+            }
+
+            .mosaic-item:nth-child(13),
+            .mosaic-item:nth-child(12),
+            .mosaic-item:nth-child(8){
+                grid-column: span 2;
+            }
+}
+
+.grid-mosaic figure:hover img {
+    transform: scale(1.05);
+}

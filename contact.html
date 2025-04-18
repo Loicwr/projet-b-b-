@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="sass/main.css">
+        <link rel="icon" type="image/png" href="pictures/LaurieFice.png">
+    </head>
+<body>
+    <header>
+        <a class="logo" href="/" title="Accueil">
+            <img src="pictures/LaurieFice.png" alt="LaurieFice">                      <!--utiliser un figure serait une suralimentation sémantique ,voilà pourquoi j'ai utilisé img-->
+        </a>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="le-studio.html">Le Studio</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="a-propos.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="grid-contact">
+        <section class="contact">
+            <header>
+                <h2>Contactez-moi</h2>
+            </header>
+            <form action="#" method="post" class="contact-form">
+                <fieldset>
+                        <legend>Vos informations</legend>
+                    <p>
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" id="prenom" name="prenom" placeholder="Premier prénom uniquement" required>
+                    </p>
+                    <p>
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom de famille" required>
+                    </p>
+                    <p>
+                        <label for="email">Adresse e-mail :</label>
+                        <input type="email" id="email" name="email" placeholder="Adresse mail" required>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Votre petit message :</legend>
+                    <p>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Veuillez rédiger votre petit message." required></textarea>
+                    </p>
+                </fieldset>
+                <p>
+                    <button type="submit" class="btn-reserver">Envoyer</button>
+                </p>
+            </form>
+        </section>
+        <section class="reseaux-contact">
+            <h2>Mes réseaux</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank">
+                    <img src="assets/charte-graphique/facebook-svgrepo-com.svg" alt="Facebook">
+                </a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">
+                    <img src="assets/charte-graphique/instagram-1-svgrepo-com.svg" alt="Instagram">
+                </a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">
+                    <img src="assets/charte-graphique/youtube-2-logo-svgrepo-com.svg" alt="YouTube">
+                </a></li>
+            </ul>
+        </section>
+        <section class="info-perso">
+            <h2>Contactez moi</h2>
+            <p>Numéro de téléphone</p>
+            <p>adresse Email</p>
+            <p>adresse postal</p>
+        </section>
+        <section class="studio__localisation">
+            <h2>Un studio accessible facilement</h2>
+            <p> Le studio se situe Valenciennes, avec un parking gratuit juste devant pour faciliter votre venue.
+            </p>
+
+            <figure class="studio__carte">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.6360148402136!2d3.5252328159468877!3d50.34759947946626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2f2be1c7a7cb3%3A0x1d87e9054bbebd02!2s360%20Rue%20Marc%20Lefrancq%2C%2059300%20Valenciennes!5e0!3m2!1sfr!2sfr!4v1712932873409!5m2!1sfr!2sfr" 
+                    allowfullscreen 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Carte Google du studio photo à Valenciennes">
+                </iframe>
+                <figcaption>Localisation du studio photo à Valenciennes</figcaption>
+            </figure>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <p>
+                2025 Laurie Fice, Tous droits réservés.
+            </p>
+        </div>
+        <nav class="reseaux">
+            <ul>
+                <li><a href="contact.html" target="_blank">Contactez-moi</a></li>
+                <li><a href="https://www.facebook.com/?locale=fr_FR" target="_blank">
+                    <img src="assets/charte-graphique/facebook-svgrepo-com.svg" alt="Facebook">
+                </a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">
+                    <img src="assets/charte-graphique/instagram-1-svgrepo-com.svg" alt="Instagram">
+                </a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">
+                    <img src="assets/charte-graphique/youtube-2-logo-svgrepo-com.svg" alt="YouTube">
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

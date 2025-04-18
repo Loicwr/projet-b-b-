@@ -1,0 +1,66 @@
+
+html body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.page-tarifs{
+    display: grid;
+    grid-template-columns:repeat(3, 5% 1fr)5%;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    gap: 1em;
+    font-family: $font-family-lato;
+    text-align: center;
+        ul{
+            list-style-type: none;
+        }
+}
+.intro-tarifs{
+    grid-column: 3 / 6;
+    margin: 2em;
+}
+
+.studiomini-tarifs{
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+    border: 0.5em solid $secondary-color;
+    background-color: $primary-color;
+    margin: 1em;
+    padding: 3em;
+    border-radius: $border-radius;
+}
+
+.studio-tarifs{
+    grid-column: 4 / 5;
+    grid-row: 2 / 5;
+    border: 0.5em solid $secondary-color;
+    background-color: $primary-color;
+    margin: 1em;
+    padding: 3em;
+    border-radius: $border-radius;
+}
+
+.exterieur-tarifs{
+    grid-column: 6 / 7;
+    grid-row: 2 / 5;
+    border: 0.5em solid $secondary-color;
+    background-color: $primary-color;
+    margin: 1em;
+    padding: 3em;
+    border-radius: $border-radius;
+}
+
+.tarifs-localisation {
+    grid-column: 2 / 7;
+    grid-row: 6;
+    text-align: center;
+
+    iframe {
+        width: 100%;
+        height: $iframe-height;
+        border: 0;
+        @include border-radius;
+    }
+}
